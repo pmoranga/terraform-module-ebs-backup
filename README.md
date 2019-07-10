@@ -66,9 +66,3 @@ The lambda function name that took this snapshot
 
 ### EbsBackup_LambdaFunctionVersion
 The lambda function version that took this snapshot
-
-### additional_tags
-Additional tags to be added to all snapshot
-
-### tags
-Tags for each resouce created by this module
