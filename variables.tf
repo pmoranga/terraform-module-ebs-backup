@@ -21,12 +21,12 @@ variable "lambda_alarm_period" {
 }
 variable "additional_tags" {
   default = {}
-  type = "map"
+  type = map
   description = "Aditional tag tags to add"
 }
 
 variable "tags" {
   default = {}
-  type = "map"
+  type = map
   description = "Tags to be added to resources (CloudWatch Metrics and Lambda)"
 }
